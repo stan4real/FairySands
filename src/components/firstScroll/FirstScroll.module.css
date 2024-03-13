@@ -1,0 +1,115 @@
+.container{
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text1 {
+    font-family: 'Pobeda';
+    font-size: 62px;
+    margin-right: 52%;
+}
+h2 {
+    font-family: 'Pobeda';
+    font-size: 40px;
+    color: #563E55;
+    
+    
+}
+.ScrollContainer{
+    max-width: 87%;
+    padding-left: 13%;
+    height: 600px;
+    max-height: 500px;
+    padding-top: 50px;
+    
+    display:flex;
+    gap: 30px;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+.item{
+    min-width: 900px;
+    max-height:400px;
+    border: 5px solid #EA068A;
+    border-radius: 35px;
+    
+    
+}
+.textContainer{
+    
+    width:80%;
+    height: 80%;
+    padding: 50px 0px 50px 75px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.textarea2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+h3{
+    color: #313891;
+    font-family: 'Pobeda';
+    font-size: 32px;
+}
+h3 span{
+    visibility: hidden;
+}
+.arrow{
+    width: 30px;
+    height:55px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.ScrollContainer::-webkit-scrollbar{
+    scrollbar-width: thin;
+    width: 15px;
+    height: 5px;
+    
+    
+} 
+.ScrollContainer::-webkit-scrollbar-track{
+    background-color: #D9D9D9;
+    margin-left: 250px;
+    margin-right: 270px;
+}
+.ScrollContainer::-webkit-scrollbar-thumb {
+    background: #EA068A;
+    height: 10px;
+    width: 300px;
+}
+.b1{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-color: transparent;
+    padding: 13px 48px 21px 48px;
+    margin-top: 60px;
+    margin-right: 53%;
+    background-color: #EA068A;
+    color: #fff;
+    font-weight: bold;
+    line-height: px;
+    width: 410px;
+    height: 84px;
+    font-family: 'Helvetica';
+    font-size: 34.1645px;
+    transition: border-color 0.2s ease-in;
+    border-radius: 20px;
+    box-shadow: inset 0px 5.93433px 5.93433px rgba(0, 0, 0, 0.07);
+}
+.b1:hover{
+    border-color: #F5F5F5;
+}

@@ -1,0 +1,94 @@
+.container{
+    padding-top: 80px;
+    width: 100%;
+    height:1800px;
+    margin: 0 auto;
+}
+.container h3{
+    font-family: 'Ubuntu', 'sans-serif';
+    color: #563E55;
+    font-size: 32px;
+}
+.container p{
+    padding-left: 110px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 39px;
+    color: #41143E;
+    text-align: justify;
+}
+.DopContainer{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100%;
+}
+.HeadText{
+    font-size:60px ;
+    font-family: 'Pobeda';
+    color: #563E55;
+}
+.Paragraph{
+    padding-top: 50px;
+    position: relative;
+    width: inherit;
+}
+.TextArea{
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.TextArea2{
+    
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.Data{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:100px;
+}
+.dataRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap:10px;
+    margin-top: 40px;
+}
+.MiniImage{
+    background-image: url('/GeoMark.png');
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.MiniImage2{
+    position: absolute;
+    background-image: url('/greenvektorsmall.png');
+    width: 60px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:60px;
+    margin-right: 44px;
+}
+.ImageEvent{
+    width: 97%;
+    height: 666px;
+    background-image: url('/ImageEvent.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 64px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}

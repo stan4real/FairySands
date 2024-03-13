@@ -1,0 +1,122 @@
+.container{
+    
+    width:100%;
+    height:1000px;
+    margin: 0 auto;
+    position: relative;
+    overflow:hidden;
+    
+    
+}
+.text1{
+    font-family: 'Pobeda';
+    font-size:62px;
+    
+}
+.vektor1{
+    width: 217px;
+    height:217px;
+    margin-left: 50px;
+    background-size: cover ;
+    background-position: center;
+    
+}
+.toprow{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 480px;
+}
+.bottomrow{
+    padding-top: 40px;
+    display:flex;
+    justify-content: center;
+    gap:160px;
+    margin-left: 50px;
+    
+}
+.firstContainer{
+    width:600px;
+    height:591.04px;
+    position: relative;
+}
+.image{
+    width:600px;
+    height:100%;
+    background-size: cover;
+    background-image:url(/sand.png);
+    border-radius: 20px;
+    
+}
+.greenvektor{
+    position: absolute;
+    width: 285px;
+    height: 161px;
+    top:510px;
+    left: -70px;
+    background-repeat: no-repeat;
+    
+}
+.secondContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.contp{
+    width: 510px;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+    line-height: 124.9%;
+}
+.card{
+    color:#EA068A;
+    width: 295px;
+    border:3px solid #EA068A;
+    border-radius: 20px;
+    padding: 35px 45px 35px 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    font-family: 'Pobeda';
+    font-size: 45px;
+}
+.text2{
+    font-family: 'Helvetica';
+    font-size: 22px;
+}
+.b1{
+    border-color: transparent;
+    background-color: #EA068A;
+    color: #fff;
+    font-weight: bold;
+    width: 152px;
+    height: 63px;
+    padding: 10px 37px 16px 37px;
+    border-radius: 20px;
+    font-size: 26px;
+    line-height: 37px;
+}
+.b1:hover{
+    border-color: #fff;
+}
+.thirdContainer{
+    flex-shrink: 1;
+}
+.bluevektor{
+    position: absolute;
+    width: 350px;
+    height: 322px;
+    background-repeat: no-repeat;
+    top:120px;
+    right: -50px;
+    z-index: -1;
+    
+    
+    
+}

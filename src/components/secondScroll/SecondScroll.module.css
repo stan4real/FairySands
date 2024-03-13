@@ -1,0 +1,149 @@
+.container{
+    width:1500px;
+    height: 830px;
+    margin: 0 auto;
+    
+}
+.fon{
+    width: 1500px;
+    height:550px;
+    position: relative;
+    z-index: -10;
+}
+.text1{
+    font-family: 'Pobeda';
+    font-size: 70px;
+    margin-left: 120px;
+}
+.cyanvektor{
+    position: absolute;
+    width: 320px;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:35%;
+    
+}
+.bogvektor{
+    position: absolute;
+    width: 340px;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:30%;
+    left: 21%;
+}
+.purplevektor{
+    position: absolute;
+    width: 200px;
+    height: 260px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:18%;
+    left: 60%;
+}
+.pinkvektor{
+    position: absolute;
+    width: 320px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:90%;
+    left: 60%;
+}
+.aquavektor{
+    position: absolute;
+    width: 232px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:35%;
+    left: 80%;
+}
+.ScrollContainer{
+    
+    position: relative;
+    z-index: 1;
+    max-width: 3000px;
+    height: 600px;
+    max-height: 900px;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    display:flex;
+    justify-content: space-between;
+    gap:500px;
+    overflow-x: scroll;
+}
+.flexContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+.flexBigItem{
+    min-width: 200px;
+    max-width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+
+}
+.flexItem{ 
+    border: 1px solid #fff;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 69.8119px 37.1152px 31.813px rgba(0, 0, 0, 0.01), 38.8826px 21.2087px 26.5109px rgba(0, 0, 0, 0.03), 17.6739px 9.72065px 19.4413px rgba(0, 0, 0, 0.05), 4.41848px 2.65109px 10.6043px rgba(0, 0, 0, 0.06), 0px 0px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 26.5109px;
+    
+    
+}
+.image{
+    width: 145px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagekisl{
+    width: 165px;
+    height: 155px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagepeski{
+    width: 230px;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imageZV{
+    width: 300px;
+    height: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ScrollContainer::-webkit-scrollbar{
+    scrollbar-width: thin;
+    width: 15px;
+    height: 5px;
+    
+    
+} 
+.ScrollContainer::-webkit-scrollbar-track{
+    background-color: #D9D9D9;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.ScrollContainer::-webkit-scrollbar-thumb {
+    background: #EA068A;
+    height: 10px;
+    width: 300px;
+}

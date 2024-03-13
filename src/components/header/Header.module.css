@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 2 4 40px rgba(0,0,0,0.5);
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:100px;
+    cursor: pointer;
+}
+.bswhatsapp{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 40px;
+    position: absolute;
+    color: white;  
+    z-index: 2;
+    
+}
+.faphone{
+    background-image: url(/phone.png);
+    top: 50%;
+    left: 50%;
+    width: 34px;
+    height: 34px;
+    transform: translate(-50% , -50%);
+    font-size: 30px;
+    z-index: 2;
+    position: absolute;
+    border-radius: 50%;
+    color: black;
+}
+.spn1{
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #EA068A;
+}
+.spn2{
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    position:relative;
+    background-color: #EA068A;
+}
+.spn1:hover{
+    scale: 1.05;
+    transition: scale 0.2s ease;
+}
+.spn2:hover{
+    scale: 1.05;
+    transition: scale 0.2s ease;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap:70px;
+    
+}
+li{
+    color: brown;
+}
+button{
+    font-family: 'Helvetica';
+    font-size: 18px;
+    padding: 7px 25px 11px ;
+    gap: 14px;
+    background-color: #fff;
+    border: solid 2px #41143E;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    align-items: center;
+    cursor: pointer;
+    transition: scale 0.2s ease-in-out;
+}
+button:hover{
+    scale: 1.03;
+    transition: all 0.2s ease;
+}
+button:active{
+    background-color: ghostwhite;
+}
+.b1{
+    border-color: transparent;
+    background-color: #EA068A;
+    color: #fff;
+    font-weight: bold;
+}
+.b1:hover{
+    background-color: #fff;
+    color:#EA068A;
+    border-color: #EA068A;
+    transition: all 0.2s ease;
+}

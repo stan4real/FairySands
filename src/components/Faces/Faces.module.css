@@ -1,0 +1,78 @@
+.container{
+    width: 100%;
+    min-height: 1000px;
+    max-height: 2550px;
+    margin: 0 auto;
+    padding-top: 78px;
+}
+.container h1{
+    font-family: 'Pobeda';
+    color: #41143E;
+    font-size: 70px;
+}
+.DopContainer{
+    width: 80%;
+    height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+.FlexContainer{
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:90px;
+}
+.FlexBigItem{
+    width: inherit;
+    height:511px;
+    display: flex;
+    gap: 7rem;
+}
+.FlexItem1{
+    width: 793px;
+    height:511px;
+}
+.FlexItem2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 300px;
+    height: 511px;
+
+}
+.image1{
+    background-image: url(/JOGA.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.image2{
+    background-image: url(/ARSEN.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.text{
+    font-family: 'Inter', 'sans-serif';
+    font-size: 44px;
+    font-weight: 600;
+    color: #41143E;
+}
+.Podrobnee{
+    color: #313891;
+    border-color: #313891;
+    width: 148px;
+    font-size: 22;
+    height: 49px;
+    border-radius: 12px;
+}

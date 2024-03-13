@@ -1,0 +1,9 @@
+.errorElements{
+    height: 100vh;
+    font-family: 'Helvetica';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}

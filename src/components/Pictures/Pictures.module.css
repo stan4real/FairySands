@@ -1,0 +1,62 @@
+.container{
+    width: 100%;
+    min-height: 1000px;
+    max-height: 2550px;
+    margin: 0 auto;
+    padding-top: 178px;
+    padding-bottom: 200px;
+}
+.DopContainer{
+    width: 80%;
+    height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+.FlexContainer{
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:90px;
+}
+.FlexBigItem{
+    width: inherit;
+    height:740px;
+    display: flex;
+    gap: 1rem;
+}
+.FlexItem1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 380px;
+    height: 720px;
+}
+.image1{
+    background-image: url(/IMYA.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 521px;
+    border-radius: 20px;
+}
+.text{
+    font-family: 'Pobeda';
+    font-size: 40px;
+    font-weight: 600;
+    color: #41143E;
+}
+.Podrobnee{
+    color: #313891;
+    border-color: #313891;
+    width: 148px;
+    font-size: 22;
+    height: 49px;
+    border-radius: 12px;
+}
