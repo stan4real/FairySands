@@ -6,7 +6,7 @@ import Layout from '../layout'
 import ErrorElement from '../../pages/ErrorElement'
 
 const Router = () => {
-  return <BrowserRouter basename='/FairySands' >
+  return <BrowserRouter >
     <Routes>
         <Route element = {<Layout/>} >
           <Route element = {<Main/>} path='/'/>
